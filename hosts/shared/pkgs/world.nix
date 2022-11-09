@@ -1,0 +1,59 @@
+{ pkgs, ... }:
+
+{
+  environment.systemPackages = with pkgs; [
+    adoptopenjdk-bin
+    ansible
+    bind
+    binutils
+    chrome-gnome-shell
+    chromium
+    clamav
+    discord
+    docker-compose
+    dogdns
+    exa
+    fd
+    figlet
+    file
+    filezilla
+    firefox-wayland
+    gnome.gnome-tweaks
+    go
+    htop
+    jq
+    lsof
+    mongodb
+    mtr
+    mysql80
+    nmap
+    nodePackages.livedown
+    nodejs
+    nssmdns
+    orchis-theme
+    p7zip
+    paprefs
+    pavucontrol
+    pciutils
+    postgresql_14
+    postman
+    psmisc
+    python310
+    redis
+    rnix-lsp
+    s3cmd
+    slack
+    spotify
+    teams
+    tela-icon-theme
+    transmission-gtk
+    unrar
+    unzip
+    usbutils
+    vlc
+    wget
+    wl-clipboard
+    zellij
+    zoom-us
+  ];
+}

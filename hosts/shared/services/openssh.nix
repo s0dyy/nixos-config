@@ -1,0 +1,7 @@
+{
+  services.openssh = {
+    enable = false;
+    passwordAuthentication = false;
+    permitRootLogin = false;
+  };
+}
